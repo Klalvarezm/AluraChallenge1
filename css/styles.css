@@ -15,6 +15,12 @@ body{
     height: 5%;
     width: 5%;
 }
+
+.warningLogo{
+    height: 5%;
+    width: 5%;
+}
+
 .encriptext{
 
 font-family: 'Verdana';
@@ -26,6 +32,9 @@ border: none;
 outline: none;
 resize: none;
 }
+
+
+
 .encriptbutton{
     background: #0A3871;
     color: white;
@@ -76,11 +85,19 @@ resize: none;
     .encriptext{
         position: absolute;
         width: 80%;
-        height: 450px;
+        height: 345px;
         left: 11%;
         font-size: 32px;
         line-height: 150%;
     }
+
+    p{
+        position: absolute;
+        font-family: 'Verdana'; 
+        top:85%;
+        left:5%;
+    }
+
     .encriptbutton{
         width: 30%;
         height: 67px;
@@ -89,7 +106,7 @@ resize: none;
         display: inline-block;
         font-size: 200%;
         position: absolute;
-        bottom:0;
+        top:95%;
         left:10%;
     }
     .decriptbutton{
@@ -99,7 +116,7 @@ resize: none;
         padding: 5%,30%;
         font-size: 200%;
         position: absolute;
-        bottom:0;
+        top:95%;
         left:50%;
     }
 
@@ -153,7 +170,13 @@ resize: none;
    font-size: 150%;
    line-height: 150%;
   }
-
+  
+  p{
+    position: absolute;
+    font-family: 'Verdana'; 
+    top:90%;
+    left:5%;
+}
   .encriptbutton{
     width: 30%;
     height: 67px;
@@ -162,7 +185,7 @@ resize: none;
     display: inline-block;
     font-size: 130%;
     position: absolute;
-    bottom:0;
+    top:100%;
     left:10%;
 }
 .decriptbutton{
@@ -172,7 +195,7 @@ resize: none;
     padding: 5%,30%;
     font-size: 130%;
     position: absolute;
-    bottom:0;
+    top:100%;
     left:50%;
 }
 
@@ -219,11 +242,18 @@ resize: none;
       .encriptext{
        position: absolute;
        width: 80%;
-       height: 400px;
+       height: 345px;
        left:11%;
        font-size: 150%;
        line-height: 150%;
       }
+
+      p{
+        position: absolute;
+        font-family: 'Verdana'; 
+        top:78%;
+        left:5%;
+    }
     
       .encriptbutton{
         width: 30%;
@@ -233,7 +263,7 @@ resize: none;
         display: inline-block;
         font-size: 130%;
         position: absolute;
-        bottom:0;
+        top:90%;
         left:10%;
     }
     .decriptbutton{
@@ -243,7 +273,7 @@ resize: none;
         padding: 5%,30%;
         font-size: 130%;
         position: absolute;
-        bottom:0;
+        top:90%;
         left:50%;
     }
 
