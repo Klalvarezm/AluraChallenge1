@@ -267,18 +267,18 @@ resize: none;
         left:10%;
     }
     .decriptbutton{
-        width: 35%;
+        width: 40%;
         height: 67px;
         border-radius: 24px;
         padding: 5%,30%;
         font-size: 130%;
         position: absolute;
         top:90%;
-        left:50%;
+        left:45%;
     }
 
     .untextcontainer{
-        margin-top: 5%;
+        margin-top: 10%;
         margin-left: 5%;
         padding-top: 5%;
         padding: 5%;
