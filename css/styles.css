@@ -1,0 +1,112 @@
+body{
+    background-color: #f3f3fb;
+}
+
+.textcontainer{
+    
+    padding-left: 10%;
+    position: relative;
+    width: 50%;
+    height: 450px;
+    display: inline-block;
+}
+
+.logoImg{
+    height: 5%;
+    width: 5%;
+}
+.encriptext{
+position: absolute;
+width: 80%;
+height: 450px;
+left: 11%;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+color: #0A3871;
+background-color:#f3f3fb; 
+border: none;
+outline: none;
+resize: none;
+}
+.encriptbutton{
+    padding: 24px;
+    width: 30%;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 200%;
+    position: absolute;
+    bottom:0;
+    left:10%;
+    border-color: #0A3871;
+}
+
+.decriptbutton{
+    width: 30%;
+    height: 67px;
+    background: #f3f3fb;
+    border-radius: 24px;
+    color:#0A3871;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 200%;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    border-color: #0A3871;
+}
+
+ .untextcontainer{
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    width: 35%;
+    height: 530px;
+    background-color: #ffffff;
+    border-radius: 15%;
+ }
+ 
+ .encriptedtext{
+ position: absolute; 
+ height: 400px;
+ width: 80%;
+ left:5%;
+ top:6%;
+ border: none;
+ outline: none;
+ resize: none;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 150%;
+ font-family: "Verdana";
+ color:#495057;
+}
+
+.copybutton{
+    position: absolute;
+    top:85%;   
+    left: 26%;
+    color: #0A3871;
+    width: 50%;
+    height: 10%;
+    border-radius: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    border-color: #0A3871;
+}
+

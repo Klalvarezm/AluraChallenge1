@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<header>
+    <img class="logoImg" src="./img/logo.png" alt="logo alura">
+</header>
+<body>
+  <div class="textcontainer">
+    <textarea class="encriptext" id="textoOriginal">Ingresa el texto aqui</textarea>
+    
+    <button class="encriptbutton" onclick="encriptar()">Encriptar</button>
+    <button class="decriptbutton" onclick="desencriptar()">Desencriptar</button>
+    
+  </div>
+  <div class="untextcontainer">
+    <textarea class="encriptedtext" readonly id="textoModificado">Aún no has encriptado ningun texto</textarea>
+    <button class="copybutton" onclick="copiar()">Copiar</button>
+  </div>   
+  
+ 
+</body>
+</html>
