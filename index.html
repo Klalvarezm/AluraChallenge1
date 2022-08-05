@@ -14,7 +14,7 @@
 </header>
 <body>
   <div class="textcontainer">
-    <textarea class="encriptext" id="textoOriginal">Ingresa el texto aqui</textarea>
+    <textarea class="encriptext" id="textoOriginal" placeholder="Ingresa el texto aqui"></textarea>
     <p><img class="warningLogo" src="./img/warning.png" alt="Advertencia Caracteristicas"> Solo letras minusculas y sin tilde.</p>
     
     <button class="encriptbutton" onclick="encriptar()">Encriptar</button>
@@ -22,10 +22,11 @@
     
   </div>
   <div class="untextcontainer">
-    <textarea class="encriptedtext" readonly id="textoModificado" placeholder="Aún no has encriptado ningun texto
+    <textarea class="encriptedtext" readonly id="textoModificado" placeholder="">Aún no has encriptado ningun texto
                                                                               
         
-    ¯\_(ツ)_/¯"></textarea>
+                ¯\_(ツ)_/¯
+    </textarea>
     <button class="copybutton" onclick="copiar()">Copiar</button>
   </div>   
   
